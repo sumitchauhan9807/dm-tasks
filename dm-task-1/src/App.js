@@ -5,7 +5,7 @@
 // userNameEmail= "flirttool",password="12345678"
 // You can use axios or inbuild fetch API
 
-function App() {
+function App() { 
   return (
     <div classname="App">
         <div className="container" style={{background:"lightblue",padding:"20px",marginTop:"20px"}}>
