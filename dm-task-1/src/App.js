@@ -1,4 +1,4 @@
-//  1. Send a POST request to the url https://mazutech.online/api/user/login with "userNameEmail" and "password" in the body.
+//  Use the following form to send a POST request to the url https://mazutech.online/api/user/login with "userNameEmail" and "password" in the body.
 // If Credentials are wrong show the error message at the bottom of the form
 // On Login success Show the Fullname and email of the user in the bottom
 // Correct credentials for login are following :- 
@@ -14,7 +14,7 @@ function App() {
             <div className="card-body"><center>Login Form</center></div>
           </div>
           <br/>
-          <form action="/action_page.php">
+          <form action="">
               <div className="form-group">
                 <label htmlFor="email">Email address:</label>
                 <input type="text" className="form-control" placeholder="Enter email" id="email" />
